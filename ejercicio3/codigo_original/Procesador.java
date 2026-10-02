@@ -29,9 +29,9 @@ public class Procesador {
 		Triangulo triangulo = new Triangulo();
 		triangulo.base = 4;
 		triangulo.altura = 5;
-
-		p.imprimirArea(rectangulo);
+        
 		// Imprime sin verificar los resultados esperados.
+		p.imprimirArea(rectangulo);
 		p.imprimirArea(triangulo);
 	}
 }
